@@ -1,1 +1,46 @@
-<h1>Test Reports</h1><p>Reports will appear here after first Jenkins build.</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>Test Reports — Nervelli</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body  { font-family: Arial, sans-serif; background: #f4f6f9; padding: 40px 20px; }
+    .wrap { max-width: 900px; margin: 0 auto; }
+    h1    { color: #1565C0; margin-bottom: 8px; }
+    p     { color: #666; margin-bottom: 24px; font-size: 14px; }
+    table { width: 100%; border-collapse: collapse; background: white;
+            border-radius: 10px; overflow: hidden;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+    th    { background: #1565C0; color: white; padding: 14px 18px; text-align: left; }
+    td    { padding: 12px 18px; border-bottom: 1px solid #eee; font-size: 14px; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td      { background: #f0f7ff; }
+    a     { color: #1565C0; font-weight: bold; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>📊 Test Execution Reports</h1>
+    <p>Auto-published by Jenkins CI · Job: Nervelli</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Build #</th><th>Platform</th>
+          <th>Environment</th><th>Suite</th><th>Report</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><b>#28</b></td>
+          <td>android</td>
+          <td>dev</td>
+          <td>smoke</td>
+          <td><a href='build-28-android-dev-smoke/index.html'>View Report →</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
