@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Feb 24 07:46:24 CST 2026","Tue Feb 24 07:46:57 CST 2026","32819","Nervelli Test Suite","Login Tests","testCases.LoginTestWithAllure","testCases.LoginTestWithAllure","testSuccessfulLogin","Verify user can complete onboarding and login successfully",""
